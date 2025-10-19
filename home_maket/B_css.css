@@ -1,0 +1,249 @@
+.h_main {
+  width: 100%;
+  position: fixed;
+  padding: 30px 0;
+  text-align: center;
+  background-color: rgba(0, 119, 101, 1);
+  justify-content: center;
+  
+}
+.menu {
+    padding: 6px 6px;
+    margin-top: 10px;
+    margin-right: 55px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 28px;
+    float: right;
+    color: #ffffff;
+    
+    
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.menu a:hover,
+.menu a:active,
+.menu a:visited,
+.menu a:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+    
+}
+
+.clear {
+  clear: both;
+}
+
+.logo1 {
+  padding: 2px 2px;
+  float: left;
+  margin-left: 10%
+}
+
+.div1 {
+  background-size: cover;
+  background-image: url("image-15.png");
+  padding: 100px;
+}
+
+.div1_text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  padding: 30px;
+}
+
+.the_problem {
+  
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  max-width: 1219px;
+}
+.main_problem {
+  font-size: 4.2rem;
+  text-align: center;
+  color:  rgba(0, 119, 101, 1);
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.the_problem p {
+  font-size: 40px;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: normal;
+  
+}
+.bold-text {
+  font-weight: bold; /* Или 700 */
+}
+.p1 {
+  margin-bottom: 80px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("image-6.png");
+  padding-left: 55px;
+  padding-right: 55px;
+  
+  
+}
+
+.hero_text {
+  max-width: 1219px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 56px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.PPC {
+  color: floralwhite;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  
+}
+
+.main_text {
+  width: 100%;
+  padding-left: 55px;
+  padding-right: 55px;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  color: #007765;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 50px;
+}
+
+.main_ppc {
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 37px;
+}
+
+.logo_ppc {
+  float: left; 
+  padding-right: 48px;
+}
+
+.p2 {
+  padding-top: 20px;
+}
+
+.team {
+  background-color: #EEEEEE;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+.title_team {
+  color: #007765;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 100px;
+}
+
+.figure {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img_phote {
+  width: 200px;
+  height: 200px;
+}
+
+.photo_t {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 30%;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 320px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+  
+}
+
+.h2_color {
+  color: #007765;
+  font-size: 30px;
+  line-height: 34px;
+  margin: 0px;
+}
+
+.figcaption {
+  font-size: 26px;
+}
+
+.finish {
+  background-color: #333;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  text-align: center;
+  height: 200px;
+}
+.p_finish {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  width: 540px;
+  margin: 0 auto;
+  padding-top: 50px;
+  
+}
+
+/* Для всех якорей добавляем отступ */
+section[id], div[id], h1[id], h2[id] {
+  scroll-margin-top: 100px;
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+/* Дополнительно для старых браузеров */
+.anchor-fix::before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+  visibility: hidden;
+}
+
